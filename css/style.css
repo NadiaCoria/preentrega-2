@@ -22,6 +22,7 @@
     height: 100px;
     justify-content: center;
     align-items: center;
+    gap: 200px;
 }
 
 .imgnav{
@@ -35,6 +36,8 @@
     display: flex;
     list-style: none;
     text-decoration: none;
+    gap: 150px;
+    
     
 }
 
@@ -42,9 +45,10 @@
     color: white;
     font-size: 20px;
     list-style: none;
-    text-decoration: none;
-    padding: 0px 90px;
+    text-decoration: none; 
     background-color: rgba(182, 15, 15, 0.726);
+    border: solid rgba(0, 0, 0, 0.308) 2px;
+    padding: 10px 20px;
 
 }
 
