@@ -48,7 +48,8 @@
     text-decoration: none; 
     background-color: rgba(182, 15, 15, 0.726);
     border: solid rgba(0, 0, 0, 0.308) 2px;
-    padding: 10px 20px;
+    padding: 10px;
+    border-radius: 5px;
 
 }
 
@@ -58,6 +59,11 @@
   
 }
 
+.imgnav:hover{
+    box-shadow: 20px white;
+    
+
+}
 
 
 /*     ....... Home ..........     */
@@ -557,5 +563,46 @@ h2{
     width: 75px;
     height: 70px;
 
+}
 
+@media (max-width:1024px){
+    .navbar{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: end;
+        color: red;
+
+    }
+    .bot-nav{
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: red;
+
+    }
+    
+    .navegacion{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: red;
+    }
+
+    .nav ul li a{
+        color: red;
+
+    }
+
+    .submit:hover{
+        color:grey;
+        box-shadow: white 20px;
+    }
+    
+    .input:focus{
+        color: grey;
+        border: solid 3px;
+    }
+
+  
 }
