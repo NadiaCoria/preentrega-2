@@ -1,0 +1,102 @@
+
+.libertadores{
+    display: flex;
+    width: 100%;
+    color: white;
+    gap: 30px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    .copa-img{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin: 30px
+    }
+    .text-lib{
+        width: 70%;
+        font-size: 20px;
+        h2{
+            text-align: left;
+            text-decoration: underline;
+        }
+    }
+}
+
+.interamericana {
+    @extend .libertadores;
+    .text-intera{
+        width: 70%;
+        font-size: 20px;
+        h2{
+            text-align: left;
+            text-decoration: underline;
+        }
+    }
+}
+
+.intercontinental{
+    @extend .libertadores;
+    .text-intercon{
+        width: 70%;
+        font-size: 20px;
+        h2{
+            text-align: left;
+            text-decoration: underline;
+        }
+    }
+}
+
+.supercopa{
+    @extend .libertadores;
+    .text-super{
+        width: 70%;
+        font-size: 20px;
+        h2{
+            text-align: left;
+            text-decoration: underline;
+        }
+    }
+}
+
+.recopa{
+    @extend .libertadores;
+    .text-recopa{
+        width: 70%;
+        font-size: 20px;
+        h2{
+            text-align: left;
+            text-decoration: underline;
+        }
+    }
+}
+
+.sudamericana{
+    @extend .libertadores;
+    .text-suda{
+        width: 70%;
+        font-size: underline;
+        h2{
+            text-align: left;
+            text-decoration: underline;
+        }
+    }
+}
+
+.surugabank{
+    @extend .libertadores;
+    .text-suruga{
+        width: 70%;
+        font-size: 20px;
+        h2{
+            text-align: left;
+            text-decoration: underline;
+        }
+    }
+}
+
+.fechas{
+    list-style: none;
+    text-decoration: none;
+}

@@ -1,608 +1,471 @@
-*{ margin:0;
-    padding: 0;
-    box-sizing: border-boxi;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-@import <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-
-.body {
-    font-family: "Roboto", sans-serif;
+button {
+  all: unset;
 }
 
-.rojos{
-    background-color: red;
-} 
-.navbar{
-    display: flex; 
-    width: 100%;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-    gap: 200px;
+.input {
+  all: unset;
 }
 
-.imgnav{
-    width: 90px;
-    height: 90px;
-
+.banner {
+  width: 100%;
 }
-
-.navegacion{
-    color: white;
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    gap: 150px;
-    
-    
-}
-
-.bot-nav{
-    color: white;
-    font-size: 20px;
-    list-style: none;
-    text-decoration: none; 
-    background-color: rgba(182, 15, 15, 0.726);
-    border: solid rgba(0, 0, 0, 0.308) 2px;
-    padding: 10px;
-    border-radius: 5px;
-
-}
-
-.nav ul li a{
-    text-decoration: none;
-    color: white;
-  
-}
-
-.imgnav:hover{
-    box-shadow: 20px white;
-    
-
-}
-
-
-/*     ....... Home ..........     */
-.banner img {
-    width: 100%;
-    margin-bottom: 10px;
+.banner .img {
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .articulo1 {
-    display: flex;
-    width: 100%;
-    height: 400px;
-    gap: 70px; 
-    text-align: center;
-    margin: 0;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  gap: 70px;
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-size: 25px;
 }
-
+.articulo1 .img {
+  width: 45%;
+  height: 300px;
+}
+.articulo1 .p {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 100px;
+}
 
 .articulo2 {
-    display: flex;
-    width: 100%;
-    height: 400px;
-    gap: 70px;
-    text-align: center;
-    margin: 0;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  gap: 70px;
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-size: 25px;
+}
+.articulo2 .p {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 100px;
+}
+.articulo2 .img {
+  width: 45%;
+  height: 300px;
 }
 
-.articulo1 img {
-    width: 45%;
-    height: 300px;
+.imagenes1 {
+  background-color: white;
+}
+.imagenes1 .imagenes {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
 }
 
-.articulo1 p{
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    margin-top: 100px;
+.rojos .navbar {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.rojos .navbar .imgnav {
+  width: 90px;
+  height: 90px;
+}
+.rojos .navbar .nav {
+  display: flex;
+}
+.rojos .navbar .nav .navegacion {
+  display: flex;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  gap: 150px;
+}
+.rojos .navbar .nav .navegacion .bot-nav {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+  background-color: rgba(182, 15, 15, 0.726);
+  border: solid rgba(0, 0, 0, 0.308) 2px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.rojos .navbar .nav .navegacion .bot-nav .a {
+  text-decoration: none;
+  display: flex;
+  color: white;
 }
 
-.articulo2 p{
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    margin-top: 100px;
+.libertadores, .surugabank, .sudamericana, .recopa, .supercopa, .intercontinental, .interamericana {
+  display: flex;
+  width: 100%;
+  color: white;
+  gap: 30px;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.libertadores .copa-img, .surugabank .copa-img, .sudamericana .copa-img, .recopa .copa-img, .supercopa .copa-img, .intercontinental .copa-img, .interamericana .copa-img {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin: 30px;
+}
+.libertadores .text-lib, .surugabank .text-lib, .sudamericana .text-lib, .recopa .text-lib, .supercopa .text-lib, .intercontinental .text-lib, .interamericana .text-lib {
+  width: 70%;
+  font-size: 20px;
+}
+.libertadores .text-lib h2, .surugabank .text-lib h2, .sudamericana .text-lib h2, .recopa .text-lib h2, .supercopa .text-lib h2, .intercontinental .text-lib h2, .interamericana .text-lib h2 {
+  text-align: left;
+  text-decoration: underline;
 }
 
-.articulo2 img {
-    width: 45%;
-    height: 300px;
+.interamericana .text-intera {
+  width: 70%;
+  font-size: 20px;
+}
+.interamericana .text-intera h2 {
+  text-align: left;
+  text-decoration: underline;
 }
 
-.imagenes {
-    display: flex;
-    width: 100%;
-    height: 250px;
-    justify-content: center;
- }
-
- .imagenes1 {
-    background-color: white;
-    
- }
-
-/*      ..... HISTORIA    ......  */
-.libertadores{
-    display: flex;
-    width: 100%;
-    color: white;
-    gap: 30px;
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    margin-top: 20px;
+.intercontinental .text-intercon {
+  width: 70%;
+  font-size: 20px;
+}
+.intercontinental .text-intercon h2 {
+  text-align: left;
+  text-decoration: underline;
 }
 
-.copa-img {
-    display: flex;
-    flex-direction: column;
-    width: 180px;
-    margin: 30px;
+.supercopa .text-super {
+  width: 70%;
+  font-size: 20px;
+}
+.supercopa .text-super h2 {
+  text-align: left;
+  text-decoration: underline;
 }
 
-.text-lib {
-    width: 70%;
-    font-size: 20px;
+.recopa .text-recopa {
+  width: 70%;
+  font-size: 20px;
+}
+.recopa .text-recopa h2 {
+  text-align: left;
+  text-decoration: underline;
 }
 
-.text-lib h2{
-    text-align: left;
-    text-decoration: underline;
+.sudamericana .text-suda {
+  width: 70%;
+  font-size: underline;
+}
+.sudamericana .text-suda h2 {
+  text-align: left;
+  text-decoration: underline;
 }
 
-.fechas{
-     list-style: none;
-     text-decoration: none;
-} 
-.interamericana{
-    display: flex;
-    width: 100%;
-    color: white;
-    gap: 30px;
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    margin-top: 20px;
+.surugabank .text-suruga {
+  width: 70%;
+  font-size: 20px;
+}
+.surugabank .text-suruga h2 {
+  text-align: left;
+  text-decoration: underline;
 }
 
-.text-intera{
-    width: 70%;
-    font-size: 20px;
+.fechas {
+  list-style: none;
+  text-decoration: none;
 }
 
-.text-intera h2 {
-    text-align: left;
-    text-decoration: underline;
+.sedes {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
 }
-.intercontinental {
-    display: flex;
-    width: 100%;
-    color: white;
-    gap: 30px;
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    margin-top: 20px;
+.sedes .sedeavellaneda {
+  width: 50%;
+  color: white;
+  text-align: center;
 }
-
-.text-intercon {
-    width: 70%;
-    font-size: 20px;
+.sedes .sedeavellaneda h2 {
+  text-decoration: underline;
+  margin-bottom: 15px;
+  font-size: 40px;
 }
-
-.text-intercon h2{
-    text-align: left;
-    text-decoration: underline;
+.sedes .sedeavellaneda .img-sede {
+  width: 400px;
+  height: 350px;
 }
-
-.supercopa{
-    display: flex;
-    width: 100%;
-    color: white;
-    gap: 30px;
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    margin-top: 20px;
+.sedes .sedeavellaneda .img-sede img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-left: 150px;
 }
-
-.text-super{
-    width: 70%;
-    font-size: 20px;
+.sedes .sedeavellaneda .info1 p {
+  text-align: center;
+  font-size: 18px;
+  margin: 15px 0px;
 }
-
-.text-super h2{
-    text-align: left;
-    text-decoration: underline;
+.sedes .sedeavellaneda .direccion {
+  text-align: left;
+  margin-left: 30px;
+  font-size: 16px;
 }
-
-.recopa{
-    display: flex;
-    width: 100%;
-    color: white;
-    gap: 30px;
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    margin-top: 20px;
+.sedes .sedeavellaneda .direccion ul {
+  margin-bottom: 8px;
 }
-
-.text-recopa{
-    width: 70%;
-    font-size: 20px;
+.sedes .sedecaba {
+  width: 50%;
+  color: white;
+  text-align: center;
 }
-
-.text-recopa h2{
-    text-align: left;
-    text-decoration: underline;
+.sedes .sedecaba h2 {
+  text-decoration: underline;
+  margin-bottom: 15px;
+  font-size: 40px;
 }
-
-.sudamericana{
-    display: flex;
-    width: 100%;
-    color: white;
-    gap: 30px;
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    margin-top: 20px;
+.sedes .sedecaba .img-sede {
+  width: 400px;
+  height: 350px;
+}
+.sedes .sedecaba .img-sede .img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+  margin-left: 150px;
+}
+.sedes .sedecaba .info2 {
+  text-align: center;
+  font-size: 18px;
+  font-size: 15px 0px;
+}
+.sedes .sedecaba .direccion {
+  text-align: left;
+  margin-left: 30px;
+  font-size: 16px;
+}
+.sedes .sedecaba .direccion .ul {
+  margin-bottom: 8px;
 }
 
-.text-suda{
-    width: 70%;
-    font-size: 20px;
+.productos-container1, .productos-conteiner2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.productos-container1 .card-container .card1, .productos-container1 .card-container .card2, .productos-conteiner2 .card-container .card1, .productos-conteiner2 .card-container .card2 {
+  width: 500px;
+  height: 450px;
+}
+.productos-container1 .card-container .card1 .card-img, .productos-container1 .card-container .card2 .card-img, .productos-conteiner2 .card-container .card1 .card-img, .productos-conteiner2 .card-container .card2 .card-img {
+  width: 100%;
+  height: 50%;
+}
+.productos-container1 .card-container .card1 .card-img .img, .productos-container1 .card-container .card2 .card-img .img, .productos-conteiner2 .card-container .card1 .card-img .img, .productos-conteiner2 .card-container .card2 .card-img .img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.productos-container1 .card-container .card1 .card-contenido h3, .productos-container1 .card-container .card2 .card-contenido h3, .productos-conteiner2 .card-container .card1 .card-contenido h3, .productos-conteiner2 .card-container .card2 .card-contenido h3 {
+  text-decoration: underline;
+  text-align: center;
+  color: black;
+}
+.productos-container1 .card-container .card1 .card-contenido .p, .productos-container1 .card-container .card2 .card-contenido .p, .productos-conteiner2 .card-container .card1 .card-contenido .p, .productos-conteiner2 .card-container .card2 .card-contenido .p {
+  margin: 5px;
+  text-align: center;
+}
+.productos-container1 .card-container .card1 .card-contenido .btn, .productos-container1 .card-container .card2 .card-contenido .btn, .productos-conteiner2 .card-container .card1 .card-contenido .btn, .productos-conteiner2 .card-container .card2 .card-contenido .btn {
+  margin: 20px;
+  padding: 10px 30px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+  font-weight: 700;
+}
+.productos-container1 .card-container .card2, .productos-conteiner2 .card-container .card2 {
+  width: 500px;
+  height: 450px;
+}
+.productos-container1 .card-container .card2 .card-img, .productos-conteiner2 .card-container .card2 .card-img {
+  width: 100%;
+  height: 50%;
+}
+.productos-container1 .card-container .card2 .card-img .img, .productos-conteiner2 .card-container .card2 .card-img .img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.productos-container1 .card-container .card2 .card-contenido h3, .productos-conteiner2 .card-container .card2 .card-contenido h3 {
+  text-decoration: underline;
+  text-align: center;
+  color: black;
+}
+.productos-container1 .card-container .card2 .card-contenido .p, .productos-conteiner2 .card-container .card2 .card-contenido .p {
+  margin: 5px;
+  text-align: center;
+}
+.productos-container1 .card-container .card2 .card-contenido .btn, .productos-conteiner2 .card-container .card2 .card-contenido .btn {
+  margin: 20px;
+  padding: 10px 30px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+  font-weight: 700;
 }
 
-.text-suda h2{
-    text-align: left;
-    text-decoration: underline;
+.rojos {
+  background-color: red;
+  width: 100%;
+  height: 100%;
 }
 
-.surugabank{
-    display: flex;
-    width: 100%;
-    color: white;
-    gap: 30px;
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    margin-top: 20px;
+.tienda-roja h2 {
+  font-weight: 100px;
+  color: white;
+  text-align: center;
+  margin: 50px 10px;
+  font-size: 30px;
 }
 
-.text-suruga{
-    width: 70%;
-    font-size: 20px;
+.promo {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  gap: 50px;
+}
+.promo .tres-cuotas, .promo .envio {
+  color: red;
+  font-size: 80px;
+  text-align: center;
+}
+.centro {
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  background-image: url(../assest/img/hinchadaasociate.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 100px;
+}
+.centro .h2 {
+  color: white;
+  font-size: 50px;
+  margin: 50px 200px;
+}
+.centro .formu {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  align-items: center;
+  background-color: rgba(204, 63, 63, 0.685);
+  flex-direction: column;
+  margin: 100px 450px;
+}
+.centro .formu div {
+  padding: 10px;
+  color: black;
+}
+.centro .formu div label {
+  display: block;
+}
+.centro .formu div input {
+  background-color: red;
+  border-radius: 7px;
+  padding: 3px;
+}
+.centro .formu .submit {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 8px;
+  background-color: red;
+  color: white;
 }
 
-.text-suruga h2{
-    text-align: left;
-    text-decoration: underline;
+.footer {
+  border-bottom: solid 3px red;
 }
- /*     ......  SEDES SOCIALES  ..... */
-
- .sedes{
-    display: flex;
-    width: 100%;
-    margin-top: 50px;
- }
-
- .sedeavellaneda{
-    width: 50%;
-    color: white;
-    text-align: center;
+.footer .redes1 {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "img-you youtu-link twi-link img-twi" "img-inst insta-link face-link img-face";
 }
-
-.sedeavellaneda h2{
-    text-decoration: underline;
-    margin-bottom: 15px;
-    font-size: 40px;
-
+.footer .redes1 .img-you {
+  grid-area: img-you;
+  justify-items: center;
+  width: 70px;
+  height: 70px;
 }
- .sedecaba{
-    width: 50%;
-    color: white;
-    text-align: center;
+.footer .redes1 .youtu.link {
+  grid-area: youtu-link;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
 }
-
- .sedecaba h2{
-    text-decoration: underline;
-    margin-bottom: 15px;
-    font-size: 40px;
- }
- 
- .img-sede{
-    width: 400px;
-    height: 350px;
- }
-
- .img-sede img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    margin-left: 150px;
- }
-
- .info1{
-    text-align: center;
-    font-size: 18px;
-    margin: 15px 0px;
- }
-
- .info2{
-    text-align: center;
-    font-size: 18px;
-    margin: 15px 0px;
- }
- .direccion{
-    text-align: left;
-    margin-left: 30px;
-    font-size: 16px;
- }
-
- .direccion ul{
-    margin-bottom: 8px;
- }
-
-
-/*     .......  STORE   .......     */
-.tienda-roja{
-    font-weight:100px;
-    color: white;
-    text-align: center;
-    margin: 50px 10px;
-    font-size: 30px;
+.footer .redes1 .twi-link {
+  grid-area: twi-link;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.footer .redes1 .img-twi {
+  grid-area: img-twi;
+  width: 70px;
+  height: 70px;
+}
+.footer .redes1 .img-face {
+  grid-area: img-face;
+  width: 70px;
+  height: 70px;
+}
+.footer .redes1 .face-link {
+  grid-area: face-link;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.footer .redes1 .insta-link {
+  grid-area: insta-link;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.footer .redes1 .im-inst {
+  grid-area: img-inst;
+  width: 75px;
+  height: 70px;
 }
 
-
-.productos-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.card {
-    width: 500px;
-    height: 450px;
-}
-.card-img {
-    width: 100%;
-    height: 50%;
-}
- .card-img img{  
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
- }
-
-.card-contenido{
-    text-align: center;
-    color: black;
-}
-
-.card-contenido h3{
-    text-decoration: underline;
-}
-
-.card-contenido h3,p{
-    margin: 5px;
-}
-
-.btn{
-    margin: 20px;
-    padding: 10px 30px;
-    border: 1px solid black;
-    border-radius: 3px;
-    background-color: white;
-    font-weight: 700;
-}
-
-.promo{
-    display: flex;
-    background-color: white;
-    width: 100%;
-    height: 250px;
-    justify-content: center;
-    gap: 50px;
-}
-
-.tres-cuotas{
-    color: red;
-    font-size: 80px;
-    text-align: center;
-}
- 
-.envio{
-    color: red;
-    font-size: 80px;
-    text-align: center;
-}
-
-
-/* ...  ......  ASOCIATE  .......  .....*/
-.centro{
-    width: 100%;
-    height: 600px;
-    margin-top: 50px;
-    background-image: url(../assest/img/hinchadaasociate.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 100px;
-}
-
-h2{
-    color: white;
-    font-size: 40px;
-    margin: 20px 100px
-}
-
-
-.formu {
-    width: 500px;
-    height: 300px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    object-fit: contain;
-    align-items: center;
-    background-color: rgba(204, 182, 182, 0.575);
-    flex-direction: column;
-    margin: 100px 450px;
-}
-
-.formu div{
-    padding: 10px;
-    color: black;
-}
-
-.formu div label{
-    display: block;
-}
-
-.input{
-    all: unset;
-    background-color: rgba(255, 0, 0, 0.568);
-    border-radius: 7px;
-    padding: 3px;
-}
-
-.submit{
-    border-radius: 10px;
-    padding: 5px;
-    margin: 8px;
-    background-color: red;
-    color: white;
-}
-
-    /*   ....... FOOTER  .......   */
-
-.footer{
-    border-bottom: solid 3px rgb(114, 3, 3);
-}
-
-    .redes1{
-        display: grid;
-        width: 100%;
-        height: 100px;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas:
-
-        "img-you youtu-link twi-link img-twi"
-        "img-inst insta-link face-link img-face"
-        ;
-
-    }       
-
-.img-you{
-    grid-area: img-you;
-    justify-items: center;
-    width: 70px;
-    height: 70px;
-
-}
-
-.youtu-link{
-    grid-area: youtu-link;
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    text-align: center;
-
-}
-
-.twi-link{
-    grid-area: twi-link;
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    text-align: center;
-
-}
-
-.img-twi{
-    grid-area: img-twi;
-    width: 70px;
-    height: 70px;
-
-
-}
-
-.img-face{
-    grid-area: img-face;
-    width: 70px;
-    height: 70px;
-
-
-}
-
-.face-link{
-    grid-area: face-link;
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    text-align: center;
-
-}
-
-.insta-link{
-    grid-area: insta-link;
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.img-inst{
-    grid-area: img-inst;
-    width: 75px;
-    height: 70px;
-
-}
-
-@media (max-width:1024px){
-    .navbar{
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: end;
-        color: red;
-
-    }
-    .bot-nav{
-        flex-direction: column;
-        flex-wrap: wrap;
-        color: red;
-
-    }
-    
-    .navegacion{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        color: red;
-    }
-
-    .nav ul li a{
-        color: red;
-
-    }
-
-    .submit:hover{
-        color:grey;
-        box-shadow: white 20px;
-    }
-    
-    .input:focus{
-        color: grey;
-        border: solid 3px;
-    }
-
-  
-}
+/*# sourceMappingURL=style.css.map */

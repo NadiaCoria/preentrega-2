@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxi;
+}
+
+.body{
+    background-color: red;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.imgnav {
+    width: 90px;
+    height: 90px;
+
+}
+
+.navegacion {
+    color: white;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 150px;
+
+
+}
+
+.bot-nav {
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgba(182, 15, 15, 0.726);
+    border: solid rgba(0, 0, 0, 0.308) 2px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.imgnav:hover {
+    box-shadow: 20px white;
+
+
+}
+
+
+/*     ....... Home ..........     */
+.banner img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.articulo1 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    gap: 70px;
+    text-align: center;
+    margin: 0;
+}
+
+
+.articulo2 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    gap: 70px;
+    text-align: center;
+    margin: 0;
+}
+
+.articulo1 img {
+    width: 45%;
+    height: 300px;
+}
+
+.articulo1 p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.articulo2 p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.articulo2 img {
+    width: 45%;
+    height: 300px;
+}
+
+.imagenes {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+}
+
+.imagenes1 {
+    background-color: white;
+
+}
+
+/*      ..... HISTORIA    ......  */
+.libertadores {
+    display: flex;
+    width: 100%;
+    color: white;
+    gap: 30px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.copa-img {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin: 30px;
+}
+
+.text-lib {
+    width: 70%;
+    font-size: 20px;
+}
+
+.text-lib h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.fechas {
+    list-style: none;
+    text-decoration: none;
+}
+
+.interamericana {
+    display: flex;
+    width: 100%;
+    color: white;
+    gap: 30px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.text-intera {
+    width: 70%;
+    font-size: 20px;
+}
+
+.text-intera h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.intercontinental {
+    display: flex;
+    width: 100%;
+    color: white;
+    gap: 30px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.text-intercon {
+    width: 70%;
+    font-size: 20px;
+}
+
+.text-intercon h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.supercopa {
+    display: flex;
+    width: 100%;
+    color: white;
+    gap: 30px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.text-super {
+    width: 70%;
+    font-size: 20px;
+}
+
+.text-super h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.recopa {
+    display: flex;
+    width: 100%;
+    color: white;
+    gap: 30px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.text-recopa {
+    width: 70%;
+    font-size: 20px;
+}
+
+.text-recopa h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.sudamericana {
+    display: flex;
+    width: 100%;
+    color: white;
+    gap: 30px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.text-suda {
+    width: 70%;
+    font-size: 20px;
+}
+
+.text-suda h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.surugabank {
+    display: flex;
+    width: 100%;
+    color: white;
+    gap: 30px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.text-suruga {
+    width: 70%;
+    font-size: 20px;
+}
+
+.text-suruga h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+/*     ......  SEDES SOCIALES  ..... */
+
+.sedes {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.sedeavellaneda {
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.sedeavellaneda h2 {
+    text-decoration: underline;
+    margin-bottom: 15px;
+    font-size: 40px;
+
+}
+
+.sedecaba {
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.sedecaba h2 {
+    text-decoration: underline;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.img-sede {
+    width: 400px;
+    height: 350px;
+}
+
+.img-sede img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: 150px;
+}
+
+.info1 {
+    text-align: center;
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+.info2 {
+    text-align: center;
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+.direccion {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.direccion ul {
+    margin-bottom: 8px;
+}
+
+
+/*     .......  STORE   .......     */
+.tienda-roja {
+    font-weight: 100px;
+    color: white;
+    text-align: center;
+    margin: 50px 10px;
+    font-size: 30px;
+}
+
+
+.productos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 500px;
+    height: 450px;
+}
+
+.card-img {
+    width: 100%;
+    height: 50%;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-contenido {
+    text-align: center;
+    color: black;
+}
+
+.card-contenido h3 {
+    text-decoration: underline;
+}
+
+.card-contenido h3,
+p {
+    margin: 5px;
+}
+
+.btn {
+    margin: 20px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    font-weight: 700;
+}
+
+.promo {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tres-cuotas {
+    color: red;
+    font-size: 80px;
+    text-align: center;
+}
+
+.envio {
+    color: red;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+/* ...  ......  ASOCIATE  .......  .....*/
+.centro {
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    background-image: url(../assest/img/hinchadaasociate.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    margin: 20px 100px
+}
+
+
+.formu {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    align-items: center;
+    background-color: rgba(204, 182, 182, 0.575);
+    flex-direction: column;
+    margin: 100px 450px;
+}
+
+.formu div {
+    padding: 10px;
+    color: black;
+}
+
+.formu div label {
+    display: block;
+}
+
+.input {
+    all: unset;
+    background-color: rgba(255, 0, 0, 0.568);
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.submit {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    background-color: red;
+    color: white;
+}
+
+/*   ....... FOOTER  .......   */
+
+.footer {
+    border-bottom: solid 3px rgb(114, 3, 3);
+}
+
+.redes1 {
+    display: grid;
+    width: 100%;
+    height: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+
+        "img-you youtu-link twi-link img-twi"
+        "img-inst insta-link face-link img-face"
+    ;
+
+}
+
+.img-you {
+    grid-area: img-you;
+    justify-items: center;
+    width: 70px;
+    height: 70px;
+
+}
+
+.youtu-link {
+    grid-area: youtu-link;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.twi-link {
+    grid-area: twi-link;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.img-twi {
+    grid-area: img-twi;
+    width: 70px;
+    height: 70px;
+
+
+}
+
+.img-face {
+    grid-area: img-face;
+    width: 70px;
+    height: 70px;
+
+
+}
+
+.face-link {
+    grid-area: face-link;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.insta-link {
+    grid-area: insta-link;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.img-inst {
+    grid-area: img-inst;
+    width: 75px;
+    height: 70px;
+
+}
+
+@media (max-width:1024px) {
+    .navbar {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: end;
+        color: red;
+
+    }
+
+    .bot-nav {
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: red;
+
+    }
+
+    .navegacion {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: red;
+    }
+
+    .nav ul li a {
+        color: red;
+
+    }
+
+    .submit:hover {
+        color: grey;
+        box-shadow: white 20px;
+    }
+
+    .input:focus {
+        color: grey;
+        border: solid 3px;
+    }
+
+
+}

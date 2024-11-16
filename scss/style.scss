@@ -1,0 +1,170 @@
+@import "./utilities/maps.scss";
+@import "./utilities/mixin.scss";
+
+@import "./base/resets";
+
+@import "./layout/mainIndex";
+@import "./layout/media/header";
+@import "./layout/media/historia";
+@import "./layout/media/sedes";
+
+@import "./components/card";
+
+
+.rojos {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.tienda-roja {
+    h2 {
+        font-weight: 100px;
+        color: white;
+        text-align: center;
+        margin: 50px 10px;
+        font-size: 30px;
+    }
+}
+
+.promo {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    gap: 50px;
+
+    .tres-cuotas {
+        color: red;
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .envio {
+        @extend .tres-cuotas;
+    }
+}
+
+.centro {
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    background-image: url(../assest/img/hinchadaasociate.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+
+    .h2 {
+        color: white;
+        font-size: 50px;
+        margin: 50px 200px;
+    }
+
+    .formu {
+        width: 500px;
+        height: 300px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        object-fit: contain;
+        align-items: center;
+        background-color: rgba(204, 63, 63, 0.685);
+        flex-direction: column;
+        margin: 100px 450px;
+
+        div {
+            padding: 10px;
+            color: black;
+
+            label {
+                display: block;
+            }
+
+            input {
+                background-color: red;
+                border-radius: 7px;
+                padding: 3px;
+            }
+        }
+
+        .submit {
+            border-radius: 10px;
+            padding: 5px;
+            margin: 8px;
+            background-color: red;
+            color: white;
+        }
+    }
+}
+
+.footer {
+    border-bottom: solid 3px red;
+    .redes1 {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "img-you youtu-link twi-link img-twi"
+        "img-inst insta-link face-link img-face"
+        ; 
+        .img-you{
+            grid-area: img-you;
+            justify-items: center;
+            width: 70px;
+            height: 70px;
+        }
+
+        .youtu.link {
+            grid-area: youtu-link;
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .twi-link {
+            grid-area: twi-link;
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .img-twi {
+            grid-area: img-twi;
+            width: 70px;
+            height: 70px;
+        }
+
+        .img-face {
+            grid-area: img-face;
+            width: 70px;
+            height: 70px;
+        }
+
+        .face-link {
+            grid-area: face-link;
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .insta-link {
+            grid-area: insta-link;
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .im-inst {
+            grid-area: img-inst;
+            width: 75px;
+            height: 70px;
+        }
+    }
+}
